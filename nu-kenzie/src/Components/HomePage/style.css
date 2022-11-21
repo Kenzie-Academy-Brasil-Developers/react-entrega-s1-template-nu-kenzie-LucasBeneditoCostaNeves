@@ -1,0 +1,54 @@
+html{
+    background-color: var(--cinza-3);
+}
+
+.preto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 70px;
+}
+
+.img-inicial{
+    width: 40%;
+    max-width: 450px;
+    margin-left: 30px;
+}
+
+.h2-rosa{
+    color: var(--rosa);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.h2-branco{
+    color: var(--branco);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.texto-inicial{
+    width: 222px;
+
+    font-weight: 800;
+    font-size: 28px;
+
+    color: var(--branco);
+}
+
+.descricao-inicial{
+    font-weight: 400;
+    font-size: 16px;
+
+    color: var(--branco);
+}
+
+.botao-inicial{
+    width: 185px;
+    padding: 10px;
+    color: var(--branco);
+    background-color: var(--rosa);
+    border: none;
+    border-radius: 6px;
+}

@@ -1,0 +1,44 @@
+.img-card{
+    width: 30px;
+    height: 30px;
+}
+
+.div-saldo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa-saldo{
+    width: 100%;
+    padding: 16px;
+
+    border: 2px solid var(--cinza-2);
+    margin-top: 20px;
+}
+
+.rosa{
+    color: var(--rosa);
+
+    font-size: 21px;
+    font-weight: 900;
+}
+
+.p-saldo{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.span-saldo{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cards-vazio{
+    width: 98%;
+    height: 280px;
+}
+
+.h3-vazio{
+    font-weight: 600;
+}

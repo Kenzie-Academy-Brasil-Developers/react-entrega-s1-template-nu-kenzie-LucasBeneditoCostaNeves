@@ -1,0 +1,27 @@
+.Entrada{
+    width: 88%;
+    height: max-content;
+    padding: 4px 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+
+    border-left: 5px solid var(--verde);
+    border-radius: 4px;
+}
+
+.Saída{
+    width: 88%;
+    height: max-content;
+    padding: 4px 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+
+    border-left: 5px solid var(--cinza-2);
+    border-radius: 4px;
+}
