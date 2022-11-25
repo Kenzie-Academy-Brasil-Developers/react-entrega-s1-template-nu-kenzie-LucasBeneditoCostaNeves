@@ -93,3 +93,12 @@ form{
     background-color: var(--cinza-1);
     border: 1px solid #E9ECEF;
   } 
+
+@media(max-width:800px){
+  form{
+    width: 100%;
+    height: max-content;
+    padding: 16px 5px;
+    border: 2px solid #E9ECEF;
+  }
+}

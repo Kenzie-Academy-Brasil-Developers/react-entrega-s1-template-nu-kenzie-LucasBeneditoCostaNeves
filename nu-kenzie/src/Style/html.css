@@ -1,3 +1,7 @@
-html{
-    background-color: aliceblue;
+.html{
+    background-color: #FFFFFF;
+}
+
+.htmlBlack{
+    background-color: var(--cinza-3);
 }

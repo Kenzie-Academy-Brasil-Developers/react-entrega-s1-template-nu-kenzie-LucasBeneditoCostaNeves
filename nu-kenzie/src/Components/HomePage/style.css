@@ -2,6 +2,10 @@ html{
     background-color: var(--cinza-3);
 }
 
+.div-inicial{
+    width: 214px;
+}
+
 .preto{
     display: flex;
     align-items: center;
@@ -51,4 +55,46 @@ html{
     background-color: var(--rosa);
     border: none;
     border-radius: 6px;
+}
+
+@media(max-width:700px){
+    .img-inicial{
+        width: 56%;
+        max-width: 450px;
+        margin-left: 4px;
+    }
+
+    .h2-branco{
+        color: var(--branco);
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .texto-inicial{
+        font-size: 19px;
+    }
+
+    .botao-inicial{
+        width: 150px;
+    }
+
+    .h2-rosa{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:500px){
+    .div-inicial{
+        width: 130px;
+    }
+
+    .texto-inicial{
+        width: 144px;
+    }
+
+    .preto{
+        margin-top: 100px;
+    }
+
+    
 }

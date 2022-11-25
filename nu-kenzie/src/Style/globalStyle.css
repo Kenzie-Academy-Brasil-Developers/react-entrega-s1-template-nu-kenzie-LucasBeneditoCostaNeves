@@ -47,7 +47,7 @@ table {
     --cinza-2: #E9ECEF;
     --cinza-3: #343A40;
     --cinza-4: #212529;
-    --verde: #03B898
+    --verde: #03B898;
   }
 
 @import './navBar.css';

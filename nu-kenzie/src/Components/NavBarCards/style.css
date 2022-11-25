@@ -27,3 +27,29 @@
     color: var(--branco);
 }
 
+.button:focus{
+    background-color: var(--rosa);
+    color: var(--branco);
+}
+
+@media(max-width:700px){
+    .button {
+        padding: 1px;
+        border: none;
+        border-radius: 4px;
+        background-color: var(--cinza-2);
+        font-size: 11px;
+        margin-left: 5px;
+    }
+
+    .h3-navBar{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .qualquer{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+

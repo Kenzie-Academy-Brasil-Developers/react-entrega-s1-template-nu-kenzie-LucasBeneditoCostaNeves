@@ -1,0 +1,8 @@
+@media(max-width:800px){
+    .caixa-saldo {
+        width: 87%;
+        padding: 16px;
+        border: 2px solid var(--cinza-2);
+        margin-top: 20px;
+    }
+}

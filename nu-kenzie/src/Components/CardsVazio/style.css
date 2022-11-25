@@ -42,3 +42,10 @@
 .h3-vazio{
     font-weight: 600;
 }
+
+@media(max-width:800px){
+    .cards-vazio {
+        width: 77%;
+        height: 134px;
+    }
+}

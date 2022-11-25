@@ -1,5 +1,6 @@
 import './Style/globalStyle.css'
 import './App.css';
+import './index.css';
 import { Form } from './Components/Form';
 import { tipoDeValor, todosValores } from './data/data';
 import { useState } from 'react';
@@ -8,6 +9,7 @@ import { Saldo } from './Components/Contador';
 import { CardsVazio } from './Components/CardsVazio';
 import { NavBarCards } from './Components/NavBarCards';
 import { HomePage } from './Components/HomePage';
+let html = document.querySelector('html')
 
 function App() {
   const [tipos, setTipos] = useState(tipoDeValor)
@@ -35,7 +37,8 @@ function App() {
               <h2 className='h2-rosa'>Nu</h2>
               <h2 className='h2-cinza'>Kenzie</h2>
             </div>
-            <button className='button-div' onClick={ () => setHome(false)}>Inicio</button>
+            <button className='button-div' onClick={ () => {html.classList='htmlBlack' 
+            setHome(false)}}>Inicio</button>
           </div>
         </nav>
       </header>

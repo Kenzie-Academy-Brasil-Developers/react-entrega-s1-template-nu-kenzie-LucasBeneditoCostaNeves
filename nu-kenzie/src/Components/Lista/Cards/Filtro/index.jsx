@@ -29,7 +29,8 @@ export const Filtro = (arry, titulo,removerValor) => {
 }
 
  export const render = (element,ul,remover) => {
-  console.log(remover)
+  let apagar = remover.removerValor.removerValor
+
   ul.insertAdjacentHTML('beforeend',`
   <li id=${element.description} class="${element.type}">
         <div >
@@ -38,7 +39,7 @@ export const Filtro = (arry, titulo,removerValor) => {
         </div>
         <div class='flex'>
             <span class='valor-card'>${element.value}</span>
-            <img class='img-card' src=${lixeira} id=${element.description} />
+            <img class='img-card' src=${lixeira} id=${element.description} onclick="${() => apagar(element.description)}"/>
         </div>
     </li>` 
   )

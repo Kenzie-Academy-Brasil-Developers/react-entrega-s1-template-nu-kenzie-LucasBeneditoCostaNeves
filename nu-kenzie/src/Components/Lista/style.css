@@ -25,3 +25,13 @@
     border-left: 5px solid var(--cinza-2);
     border-radius: 4px;
 }
+
+@media(max-width:800px){
+    .Entrada{
+        width: 69%;
+    }
+
+    .Saída{
+        width: 69%;
+    }
+}

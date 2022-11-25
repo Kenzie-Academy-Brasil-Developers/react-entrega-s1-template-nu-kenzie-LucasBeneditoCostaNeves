@@ -58,3 +58,29 @@ main{
   height: 100vw;
   background-color: var(--branco);
 }
+
+@media(max-width:800px){
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-form {
+    width: 100%;
+    margin-right: 60px;
+  }
+
+  .essa{
+    width: 100%;
+  }
+
+  .img-card {
+    width: 150px;
+    height: 100px;
+}
+
+  .div-logo{
+    align-items: center;
+  }
+    
+}
